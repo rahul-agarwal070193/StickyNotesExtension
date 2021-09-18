@@ -18,6 +18,7 @@ $(document).ready(function () {
     } else {
         arr_id = (JSON.parse(localStorage.getItem("arr_id")));
     }
+    $(".alert").hide();
     renderContainer();
 });
 function uniqueId() {
@@ -39,7 +40,8 @@ noteBtn.addEventListener("click", function () {
         renderContainer()
     }
     else {
-        alert("enter text in the box");
+        $(".alert").show();
+        setTimeout(function () { $(".alert").hide(); }, 1000);
     }
 
 })
