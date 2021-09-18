@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-bottom: 4px;
+}
+
+#container {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  text-align: justify;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.note {
+  background-color: #ffff77;
+}
+.link {
+  color: #198754;
+  background-color: #9eff77;
+}
